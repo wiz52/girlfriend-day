@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Girlfriend's Day ❤️</title>
+
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.16"></script>
+</head>
+
+<body>
+
+<div id="hearts"></div>
+
+<!--
+  Add your own song by placing an mp3 in a "music" folder next to this file
+  and updating the src below, e.g. music/our-song.mp3
+-->
+<audio id="music" loop>
+  <source src="music/your-song.mp3" type="audio/mpeg">
+</audio>
+
+<section class="hero">
+  <h1>Happy Girlfriend's Day ❤️</h1>
+  <h2>For My Jaanu 💖</h2>
+  <p id="typing"></p>
+  <button id="surpriseBtn">Open My Surprise 💌</button>
+</section>
+
+<section id="gallery" class="hidden">
+  <h2>Our Beautiful Memories 📸</h2>
+  <div class="slider">
+    <!-- Add your own photos to a "photos" folder next to this file -->
+    <img src="photos/1.jpg" class="slide active" alt="Memory 1">
+    <img src="photos/2.jpg" class="slide" alt="Memory 2">
+    <img src="photos/3.jpg" class="slide" alt="Memory 3">
+    <img src="photos/4.jpg" class="slide" alt="Memory 4">
+    <img src="photos/5.jpg" class="slide" alt="Memory 5">
+  </div>
+</section>
+
+<section id="letter" class="hidden">
+  <h2>To My Favourite Hooman ❤️</h2>
+  <div class="card">
+    <p>
+      Thank you for making everything better.<br>
+      You make ordinary days feel special.<br>
+      You make me smile even when I'm not trying to.<br>
+      I feel lucky that you're my person.<br>
+      No matter what happens,<br>
+      I'll always choose you.<br>
+      I love you so much Jaanu ❤️
+    </p>
+  </div>
+</section>
+
+<section id="reasons" class="hidden">
+  <h2>100 Reasons I Love You ❤️</h2>
+  <ul>
+    <li>Your smile melts my heart.</li>
+    <li>You always understand me.</li>
+    <li>You make everything feel safe.</li>
+    <li>Your laugh is my favourite sound.</li>
+    <li>You are my peace.</li>
+    <li>You are my favourite notification.</li>
+    <li>You make every moment magical.</li>
+    <li>You are the best thing that ever happened to me.</li>
+  </ul>
+</section>
+
+<section id="ending" class="hidden">
+  <h1>I Love You Jaanu ❤️</h1>
+  <h3>Happy Girlfriend's Day 💖</h3>
+  <p>
+    Forever isn't enough with you.<br>
+    Thank you for being mine.<br>
+    ❤️
+  </p>
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
